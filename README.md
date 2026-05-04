@@ -1,7 +1,7 @@
 # Polytech‑2024‑2025
 
 1. [**Digger**](#digger) – arcade tile‑based game (C++20, SDL2)
-2. [**RSA Encryption**](#rsa-encryption-c-gmp) – cryptographic library / CLI tool (C, GMP)
+2. [**RSA Encryption**](#rsa) – cryptographic library / CLI tool (C, GMP)
 
 Each project has its own build instructions and dependencies. See the corresponding sections below.
 
@@ -20,7 +20,7 @@ Written in C++20 with SDL2.
 - **Bullets** – destroy dirt tiles and can be used against enemies.
 - **Linux only** – built with CMake, SDL2, SDL_ttf, SDL_image (and nlohmann_json).
 
-![Gameplay demo](diger/assets/demo.gif)
+![Gameplay demo](digger/assets/demo.gif)
 
 ## Build
 
@@ -29,6 +29,7 @@ cmake -B build && cmake --build build
 ```
 
 ---
+<a name="rsa"></a>
 # RSA Encryption (C + GMP)
 
 A compact implementation of the RSA algorithm for key generation, encryption, and decryption using the GNU MP (GMP) library.
